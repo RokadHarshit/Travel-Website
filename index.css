@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: dongle-light;
+}
+@font-face {
+    font-family: dongle-regular;
+    src: url(dongle/Dongle-Regular.ttf);
+}
+@font-face {
+    font-family: dongle-bold;
+    src: url(dongle/Dongle-Bold.ttf);
+}
+@font-face {
+    font-family: dongle-light;
+    src: url(dongle/Dongle-Light.ttf);
+}
+header{
+    margin: 8px;
+    padding: 12px;
+    position: relative;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin:15px;
+    font-size: 25px;
+    font-family: dongle-bold;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #333;
+    transition: all ease 0.4s;
+}
+.logo{
+    width: 65px;
+}
+.menubar ul li a:hover{
+    color: #ff7f50;
+}
+.hero{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+.hero-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.hero-data{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.hero-data h1{
+    font-family:dongle-bold;
+    font-size: 5rem;
+}
+.hero-data p{
+    font-family: dongle-regular;
+    font-size: 2rem;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.hero-button{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 12px 13px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    font-family: dongle-light;
+    font-size: 2.5rem;
+
+}
+.hero-button:hover{
+    color: #fff;
+    transition: all ease 0.4s;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: none;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background:var(--anycolor);
+    color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.book .heading {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.book .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.book .row .image {
+    flex: 1 1 30rem;
+}
+
+.book .row .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.book .row form {
+    flex: 1 1 40rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    background: white;
+}
+
+.book .row form:hover {
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0);
+}
+
+.book .row form .inputBox {
+    padding: .5rem 0;
+}
+
+.book .row form .inputBox h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #666;
+}
+
+.book .row form .inputBox h3 i {
+    color: var(--anycolor);
+}
+
+.book .row form .inputBox input {
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    font-size: 1.7rem;
+    color: #333;
+}
+
+.book .row form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book .row form .btn:hover {
+    background-color: #0056b3;
+}
+.book .row form .btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--anycolor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.book .row form .btn:hover {
+    background-color: #004bb5;
+}

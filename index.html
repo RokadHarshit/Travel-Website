@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" href="Image/logo.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body><div class="background"></div>
+    
+    <header>  
+        <a href="index.html"><img class="logo" src="Image/logoresize.png" alt="logo"></a>
+
+        <div class="menubar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="Packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-img">
+                <img src="Image/hero.jpg" alt="Main Image">
+            </div>
+            <div class="hero-data">
+                <h1>Welcome to Our Travel Website</h1>
+                <p>Discover India with us, Adventure Awaits. India is yours to Explore.</p>
+                <a href="#book" class="hero-button">Book Now</a>
+            </div>
+        </section>
+    </main>
+
+    <br><br>
+
+    <section class="book" id="book">
+
+        <h1 class="heading"><span>BOOK NOW</span></h1>
+        <br />
+        <div class="row">
+
+            <div class="image">
+                <img src="image/book-img.png" alt="img" >
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3><i class="fas fa-map-marker-alt"></i> Location </h3>
+                    <input type="text" placeholder="Destination Name">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-user-friends"></i> No of Persons </h3>
+                    <input type="number" placeholder="Number of Guests">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-phone-alt"></i> Phone No </i></h3>
+                    <input type="number" placeholder="Contact Number">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-plane-arrival"></i> Arrival Date </h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-plane-departure"></i> Departure Date </h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Book Now">
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

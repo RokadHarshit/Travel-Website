@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: dongle-regular;
+    src: url(dongle/Dongle-Regular.ttf);
+}
+@font-face {
+    font-family: dongle-bold;
+    src: url(dongle/Dongle-Bold.ttf);
+}
+@font-face {
+    font-family: dongle-light;
+    src: url(dongle/Dongle-Light.ttf);
+}
+header{
+    margin: 8px;
+    padding: 12px;
+    position: relative;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin:15px;
+    font-size: 25px;
+    font-family: dongle-bold;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #333;
+    transition: all ease 0.4s;
+}
+.logo{
+    width: 65px;
+}
+.menubar ul li a:hover{
+    color: #ff7f50;
+}
+
+
+
+
+
+/* ////////////////////////////////// */
+.packages {
+    padding: 50px 0;
+}
+
+.packages .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.packages .heading span {
+    background: #ff6347;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.packages .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.packages .box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.packages .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px black;
+}
+
+.packages .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.packages .box .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.packages .box .content h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.packages .box .content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.packages .box .content .price {
+    font-size: 18px;
+    color: #ff6347;
+    margin-bottom: 15px;
+}
+
+.packages .box .content .price span {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.packages .box .content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.packages .box .content .btn:hover {
+    background: #e5533d;
+}
